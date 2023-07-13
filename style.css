@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+body{
+    background: url('img1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+ 
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    
+}
+.logo{
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.navbar a{
+   padding: 10px 20px;
+   text-decoration: none;
+   color: #ffffff;
+   font-weight: bolder;
+   font-size: 1.2rem;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+.register a{
+    color: #ffffff;
+    background-color: #cd5c5c;
+    font-size: 1.4rem;
+    padding: 10px 20px;
+    font-weight: bolder;
+    border-radius: 8%;
+    text-decoration: none;
+}
+.register a:hover{
+    font-size: 1.5rem;
+}
+.main{
+    text-align: center;
+    margin-top: 13%;
+    color: #ffffff;
+    font-weight: bolder;
+} 
+.main h4{
+    letter-spacing: 6px;
+    font-size: .9rem;
+}
+.main strong{
+    font-size: 4rem;
+    margin-bottom: 20%;
+}
+.main a{
+    background-color: #cd5c5c;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8%;
+    letter-spacing: 6px;
+}
+.main a:hover{
+    font-size: 1.5rem;
+}
